@@ -1,10 +1,85 @@
-.datos-p {
-  display: flex;
-  flex-direction: column;
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.datos {
-  background-color: red;
-  margin: 2px;
-  width: 200px;
-  padding: 60px;
+
+.body {
+  background: rgb(248, 246, 247);
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.hjv {
+  display: flex;
+  width: 800px;
+  margin: 50px auto;
+  background: rgb(37, 39, 39);
+  padding: 10px;
+}
+
+.hjv .secion_izq {
+  width: 45%;
+  background: hwb(260 34% 59%);
+}
+
+.hjv .secion_izq .imagen {
+  width: 100%;
+}
+
+.hjv .secion_izq .imagen img {
+  width: 100%;
+  display: block;
+}
+
+.hjv .titulo {
+  color: rgb(241, 241, 250);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 10px;
+  letter-spacing: 4px;
+}
+
+.hjv .secion_izq .resumen.info {
+  color: black;
+}
+
+.hjv .datos {
+  padding: 30px 20px;
+}
+
+.hjv .datos .datosp {
+  padding: 20px 0;
+  border-bottom: 1px solid rgb(255, 243, 245);
+}
+
+.hjv .datos .datosp:last-child {
+  border-bottom: 0;
+}
+
+.hjv .secion_izq .datos_x .nombre {
+  font-size: 20px;
+  color: brown;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 4px;
+  letter-spacing: 4px;
+  border-bottom: 1px crimson;
+}
+
+.hjv .secion_izq .contacto .resume_info:last-child {
+  margin-top: 10px;
+}
+
+.hjv .secion_izq .contacto .icono img {
+  color: rgb(165, 42, 42);
+  margin-bottom: 2px;
+  width: 30px;
+}
+
+.hr1 {
+  color: brown;
 }
