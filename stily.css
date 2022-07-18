@@ -1,0 +1,10 @@
+.datos-p {
+  display: flex;
+  flex-direction: column;
+}
+.datos {
+  background-color: red;
+  margin: 2px;
+  width: 200px;
+  padding: 60px;
+}
